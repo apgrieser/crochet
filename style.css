@@ -26,6 +26,7 @@ h1 {
   color: lightgoldenrodyellow;
 }
 
+
 h2 {
   font-family: Quicksand, sans-serif;
   font-weight: 600;
@@ -68,7 +69,6 @@ header {
   /* font-size:400%; */
   /* background-color: #333; */
   background-color: brown;
-  /* background-image: url('images/scmacro.jpg'); */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -107,21 +107,64 @@ nav ul li a {
 
 /* Hero is the thing that goes under the header */
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px; /* Adjust padding as needed */
   position: relative;
-  background-image: url('./images/scmacro.jpg'); /* Replace 'your-background-image.jpg' with your image file */
+  background-image: url('./images/scmacro.jpg'); 
   background-size: cover;
   background-position: center;
-  /* color: darkblue; */
-  text-align: center;
-  /* font-size: 400%; */
-  padding: 100px 0;
+  z-index: 1;
 }
+
+.hero-content {
+  flex: 1;
+  padding-right: 20px; /* Add some spacing between text and image */
+  z-index: 2;
+}
+
+.img-hero-content {
+  flex: 1;
+  padding-left: 20px;
+  z-index: 2;
+}
+
+.img-hero-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Add border radius to the image */
+} 
+
+.btn-center {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+.hero-btn-container {
+  position: absolute;
+  bottom: 20px; /* Adjust the button's vertical position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
 
 .hero h2 {
   color: lightgreen;
+  text-align: left;
+  padding-left: 10px;
 }
 
-/* Change the background image opacity so that it is less prominent than the text */
+.hero li {
+  color: lightgreen;
+  list-style-type: square;
+  padding-left: 10px;
+}
+
+
 .hero::after {
   content: "";
   background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here (0.5 = 50% opacity) */
@@ -130,13 +173,19 @@ nav ul li a {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 1; /* Ensure the overlay is behind the content */
+}
+
+.hero .btn {
+  /* position: relative; */
+  z-index: 2;
 }
 
 .hero h1,
-.hero h2,
-.hero .btn {
+/* .hero h2, */
+.hero h2 { 
   position: relative; /* Ensure text is on top of the semi-transparent overlay */
-  z-index: 1; /* Ensure text is on top of the semi-transparent overlay */
+  z-index: 0; /* Ensure text is on top of the semi-transparent overlay */
 }
 
 .featured-text {
@@ -144,6 +193,7 @@ nav ul li a {
   margin-bottom: 20px; /* Add space between text and products */
   width: 100%; /* Ensure full width */
 }
+
 .featured-text p {
   padding-left: 20px;
   text-align:left;
@@ -232,7 +282,7 @@ footer nav ul li {
   margin: 0 10px;
 }
 
-.btn {
+/* .btn-center {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
@@ -240,12 +290,31 @@ footer nav ul li {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
+  justify-self:center;
+  z-index: 2;
+} 
+
+.btn-center:hover {
+  background-color: #0056b3;
+  color: white;
+} */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  /* z-index: 2; */
+  /* margin-top: 20px; */
 }
 
 .btn:hover {
   background-color: #0056b3;
   color: white;
 }
+
 
 /* Responsive adjustments for the horizontal product list - allow the pattern items to go vertical if needed */
 @media (max-width: 768px) {
