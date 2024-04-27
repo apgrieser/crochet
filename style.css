@@ -1,13 +1,14 @@
 
-
-/* ------------------------------------------------------------------ */
-
 h1 {
-  font-family: Quicksand, sans-serif;
-  font-weight: 800;
-  font-size: 400%;
+  /* font-family: "Ephesis", cursive; */
+  font-family: "Licorice", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  font-weight: 400;
+  font-size: 600%;
+  margin-top: 10px; /* Adjust the value as needed */
+  margin-bottom: 20px;
   /* font-style:italic; */
-  color: lightgoldenrodyellow;
+  color: #fafad2;
 }
 
 
@@ -15,8 +16,7 @@ h2 {
   font-family: Quicksand, sans-serif;
   font-weight: 600;
   font-size: 200%;
-  /* font-style:italic; */
-  color: green;
+  color: #4a5759;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h4 {
   font-weight: 400;
   font-size: 200%;
   /* font-style:italic; */
-  color: orange;
+  color: goldenrod;
 }
 
 body {
@@ -43,51 +43,51 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: green;
+  color: #4a5759;
+  background-color: #faf7f7 ;
   /* text-align: left; */
 }
 
 header {
   font-family: Quicksand, sans-serif;
-  /* font-weight: 900; */
-  /* font-size:400%; */
-  /* background-color: #333; */
-  background-color: brown;
+  background-color: #4a5759;
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: white;
-  padding: 20px;
+  color: wfaf7f7;
+  /* padding: 10px; */
 }
+
+nav {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* h1 { */
+  /* margin-top: 10px; Adjust the value as needed */
+  /* margin-bottom: 20px; */
+/* } */
 
 nav ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
   font-size:medium;
-  /* color: white; */
 }
 
 nav ul li {
   display: inline-block;
   margin: 0 10px;
-  /* color: white; */
 }
 
 nav ul li a {
-  color: white;
+  color: #faf7f7;
   font-weight: 500;
   text-decoration: none;
 }
 
-/* .hero {
-  background-image: url('./images/scmacro.jpg');
-  background-size: cover;
-  color: darkblue;
-  text-align: center;
-  font-size: 400%;
-  padding: 100px 0;
-} */
+nav ul li a:hover {
+  color: black;
+}
 
 /* Hero is the thing that goes under the header */
 .hero {
@@ -136,14 +136,14 @@ nav ul li a {
 }
 
 
-.hero h2 {
-  color: lightgreen;
+.hero h1, h2 {
+  color: #85c8ff;
   text-align: left;
   padding-left: 10px;
 }
 
 .hero li {
-  color: lightgreen;
+  color: #85c2f4;
   list-style-type: square;
   padding-left: 10px;
 }
@@ -151,7 +151,7 @@ nav ul li a {
 
 .hero::after {
   content: "";
-  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here (0.5 = 50% opacity) */
+  background: rgba(0, 0, 0, 0.7); /* Adjust the opacity here (0.5 = 50% opacity) */
   position: absolute;
   top: 0;
   left: 0;
@@ -165,8 +165,13 @@ nav ul li a {
   z-index: 2;
 }
 
-.hero h1,
-/* .hero h2, */
+.hero h1 {
+  /* position:relative; */
+  text-align: center;
+  z-index: 0;
+  padding-top: 10px;
+}
+
 .hero h2 { 
   position: relative; /* Ensure text is on top of the semi-transparent overlay */
   z-index: 0; /* Ensure text is on top of the semi-transparent overlay */
@@ -184,7 +189,7 @@ nav ul li a {
 }
 
 .price {
-  color: red;
+  color: #ad6a6c;
 }
 
 .price-free {
@@ -194,14 +199,14 @@ nav ul li a {
 .warning {
   padding-top: 40px;
   padding-left: 20px;
-  color: red;
+  color: #ad6a6c;
   font-size: 200%;
 }
 
-/* 
-.product h2 {
-  text-align: left;
-} */
+
+.products {
+  color: black;
+}
 
 /* Add a container around the products to center them */
 .products-container {
@@ -236,16 +241,6 @@ nav ul li a {
   border-radius: 10px;
 }
 
-
-footer {
-  /* background-color: #333; */
-  background-color: brown;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: auto;
-}
-
 .product h3 {
   margin-top: 10px; /* Add space between image and title */
   margin-bottom: 10px;
@@ -255,6 +250,30 @@ footer {
 .product h4, p {
   text-align: center;
   margin-top: 5px; /* Add space between title and description */
+}
+
+.section-head h2 {
+  color: #4a5759;
+}
+
+.section-content p {
+  text-align: left;
+  padding-left: 20px;
+  /* color: black; */
+}
+
+.section-content h2 {
+  color: black;
+  text-align: center;
+}
+
+footer {
+  /* background-color: #333; */
+  background-color: #4a5759;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
 }
 
 footer nav ul {
@@ -300,8 +319,6 @@ footer nav ul li {
 }
 
 
-
-
 #return-to-top {
   display: none;
   position: fixed;
@@ -319,8 +336,11 @@ footer nav ul li {
 }
 
 .fa-brands:hover {
-  color: lightgreen;
+  color: #85c2f4;
 }
+
+
+/* ------------------------------------------------------------------ */
 
 /* Responsiveness stuff */
 /* Media query for screens smaller than 768px (e.g., tablets) */
