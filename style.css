@@ -137,13 +137,13 @@ nav ul li a:hover {
 
 
 .hero h1, h2 {
-  color: #85c8ff;
+  color: #fafad2;
   text-align: left;
   padding-left: 10px;
 }
 
 .hero li {
-  color: #85c2f4;
+  color: #fafad2;
   list-style-type: square;
   padding-left: 10px;
 }
@@ -360,7 +360,7 @@ footer nav ul li {
 @media (max-width: 576px) {
   /* Adjust styles for even smaller screens */
   body {
-      font-size: 12px;
+      font-size: 14px;
   }
 
   .hero h1, h2 {
