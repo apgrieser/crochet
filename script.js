@@ -5,6 +5,13 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     // console.log("DOMContentLoaded");
+    // const menuToggle = document.querySelector('.menu-toggle');
+    // const nav = document.querySelector('nav ul');
+
+    // Toggle the 'show' class on the navigation links when the menu toggle is clicked
+    // menuToggle.addEventListener('click', function () {
+    // nav.classList.toggle('show');
+    // });
 
     window.onscroll = function() {scrollFunction()};
 
@@ -22,6 +29,20 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     });
 
+
+});
+    
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     const menuToggle = document.querySelector('.menu-toggle');
+    //     const nav = document.querySelector('nav ul');
+      
+    //     // Toggle the 'show' class on the navigation links when the menu toggle is clicked
+    //     menuToggle.addEventListener('click', function () {
+    //       nav.classList.toggle('show');
+    //     });
+    //   });
+      
 
     // document.getElementById("get-started").addEventListener("click", function() {
     //     console.log("get-started pressed")
@@ -49,6 +70,3 @@ document.addEventListener("DOMContentLoaded", function() {
     //         servicesSection.scrollIntoView({ behavior: "smooth" });
     //     });
     //   });
-
-
-});
