@@ -370,7 +370,7 @@ footer nav ul li {
 /* Responsiveness stuff */
 
 
-@media (min-width: 801px) and (max-width: 900px) {
+@media (min-width: 750px) and (max-width: 1500px) { 
 
   /* Adjust styles for smaller screens */
   body {
@@ -408,10 +408,9 @@ footer nav ul li {
     font-size:medium;
   } */
 
-  nav ul {
-    /* padding: 0; */
-    font-size: small;
-  }
+  /* nav ul { */
+    /* font-size: smaller; */
+  /* } */
   
   
   nav ul li {
@@ -447,7 +446,7 @@ footer nav ul li {
 
 
 
-@media (min-width: 481px) and (max-width: 800px) {
+@media (min-width: 481px) and (max-width: 870px) {
 
   /* Adjust styles for even smaller screens */
 
@@ -461,7 +460,7 @@ footer nav ul li {
   }
 
   .hero h1, h2 {
-    font-size: 150%;
+    font-size: 100%;
   }
 
   .product {
@@ -472,6 +471,7 @@ footer nav ul li {
   header {
     padding: 5px; /* Add padding to the header */
   }
+
 /* 
   nav ul {
    
@@ -482,6 +482,11 @@ footer nav ul li {
     background-color: #4a5759; 
     text-align: center;
   } */
+
+  nav ul {
+    /* padding: 0; */
+    font-size: smaller;
+  }
 
   nav ul li {
     display: inline-block;
@@ -517,8 +522,13 @@ footer nav ul li {
     padding: 5px; /* Add padding to the header */
   }
 
+  .img-hero-content img {
+    display:none;
+  } 
+
+
   nav ul {
-    font-size:small;
+    font-size:smaller;
   }
   /* nav ul { */
 /*     
