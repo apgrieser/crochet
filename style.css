@@ -447,7 +447,7 @@ footer nav ul li {
 
 
 
-@media (min-width: 700px) and (max-width: 800px) {
+@media (min-width: 481px) and (max-width: 800px) {
 
   /* Adjust styles for even smaller screens */
 
@@ -465,7 +465,7 @@ footer nav ul li {
   }
 
   .product {
-    flex: 0 0 calc(50% - 20px); /* Two items per row */
+    flex: 0 0 calc(50% - 20px); /* One item per row */
     max-width: calc(50% - 20px);
   }
 
@@ -491,7 +491,7 @@ footer nav ul li {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
 
   /* Adjust styles for even smaller screens */
 
