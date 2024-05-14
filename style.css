@@ -446,13 +446,18 @@ footer nav ul li {
 
 
 
-@media (min-width: 481px) and (max-width: 870px) {
+@media (min-width: 501px) and (max-width: 750px) {
 
   /* Adjust styles for even smaller screens */
 
   /* .logo {
     display: none; /* Hide the logo on smaller screens */
   /* } */ 
+
+  .img-hero-content img {
+    display: none;
+    width: 0%;
+  } 
 
   body {
     color: red;
@@ -472,20 +477,9 @@ footer nav ul li {
     padding: 5px; /* Add padding to the header */
   }
 
-/* 
-  nav ul {
-   
-    position: absolute;
-    top: 60px; 
-    left: 0;
-    right: 0;
-    background-color: #4a5759; 
-    text-align: center;
-  } */
-
   nav ul {
     /* padding: 0; */
-    font-size: smaller;
+    font-size: medium;
   }
 
   nav ul li {
@@ -496,13 +490,20 @@ footer nav ul li {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
   /* Adjust styles for even smaller screens */
 
-  /* .logo {
+ /* .logo {
     display: none; /* Hide the logo on smaller screens */
-  /* } */ 
+  /* }  */
+
+  .img-hero-content img {
+    display: none;
+    width: 0%;
+    height: 0%;
+  } 
+
 
   body {
     color: orange;
@@ -510,7 +511,7 @@ footer nav ul li {
   }
 
   .hero h1, h2 {
-    font-size: 100%;
+    font-size: 90%;
   }
 
   .product {
@@ -522,13 +523,14 @@ footer nav ul li {
     padding: 5px; /* Add padding to the header */
   }
 
-  .img-hero-content img {
-    display:none;
-  } 
-
+  
 
   nav ul {
     font-size:smaller;
+  }
+
+  nav ul li {
+    padding: 0;
   }
   /* nav ul { */
 /*     
