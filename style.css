@@ -329,6 +329,15 @@ footer nav ul li {
   margin: 0 10px;
 }
 
+footer .logo {
+  display: inline-block;
+  justify-content: center;
+}
+/* 
+footer img {
+  max-width: 100%;
+  height: auto;
+} */
 
 .btn {
   display: inline-block;
