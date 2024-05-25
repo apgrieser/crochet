@@ -381,14 +381,6 @@ footer nav ul li {
     color: green;
   }
 
-  /* .hero h1 {
-    font-size: 100px;
-  } */
-  /* footer { */
-    /* margin-bottom: 10; */
-  /* } */
-  
-
   .logo {
     width: 50px;
   }
@@ -505,17 +497,10 @@ footer nav ul li {
 
   /* Adjust styles for even smaller screens */
 
- /* .logo {
+ .logo {
+  /* width: 30px; */
     display: none; /* Hide the logo on smaller screens */
-  /* }  */
- 
-  .logo {
-    width: 50px;
-  } 
-
-  /* h1 {
-    font-size: 100px;
-  } */
+ } 
 
   .img-hero-content img {
     /* display: none; */
