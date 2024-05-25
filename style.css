@@ -202,7 +202,7 @@ nav-title {
 
 .hero h1 {
   /* position:relative; */
-  text-align: left;
+  /* text-align: left; */
   z-index: 0;
   padding-top: 10px;
 }
