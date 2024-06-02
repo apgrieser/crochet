@@ -143,8 +143,12 @@ footer {
 }
 
 /* Space the social icons appropriately */
-.footer-spacing nav ul li {
-  padding-right: 15px;
+/* .footer-spacing nav ul li {
+  margin-right: 15px;
+} */
+
+footer nav ul li {
+  margin-right: 20px;
 }
 
 /* ---------------------------------------- */
@@ -184,6 +188,10 @@ footer {
   .logo1 img {
     width: 20%;
   }
+/* 
+  .footer-spacing nav ul li {
+    margin-right: 30px;
+  } */
 
 }
 
