@@ -15,7 +15,7 @@ header {
   background-color: #3c3c07;
 
   padding: 10px 0;
-}https://apgrieser.github.io/crochet/index1
+}
 
 h1 {
   color: #fafad2;
@@ -59,33 +59,17 @@ nav ul li a:hover {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   color: #3c3c07;
   background-color: #fff6de;
   justify-content: space-around;
-  /* color: #fafad2; */
-  /* background-color: #ffefd2; */
-  /* background-color: #4a4a37; */
-  /* background-color: #a5a58d; */
-  /* background-color: #4a4a4a; */
-  /* color: #fff; */
 }
-
-/* .hero p {
-  font-size: 300%;
-  text-align: left;
-} */
 
 .hero ul li {
   text-align: left;
   padding-bottom: 30px;
   font-size: 300%;
 }
-
-/* .hero ul li a {
-  font-size: 200%;
-  text-align: left;
-} */
 
 .hero h2 {
   font-size: 500%;
@@ -115,15 +99,10 @@ nav ul li a:hover {
 }
 
 .get-started {
-  /* background-color: #4a4a4a; */
-  /* background-color: #a5a58d; */
-
-  /* background-color: #ffefd2; */
   background-color: #fff6de;
   text-align: center;
   padding-top: 0;
   padding-bottom: 20px;
-  /* justify-content: center; */
 }
 
 .get-started button {
@@ -170,7 +149,7 @@ footer {
 
   .title-area h1 {
     font-size: 340%;
-    color: fuchsia;
+    /* color: fuchsia; */
   }
 
   .hero ul li {
@@ -192,6 +171,7 @@ footer {
   nav ul li {
     margin: 0 3px;
     padding-bottom: 3px;
+    font-size: smaller;
   }
   
 }
@@ -201,7 +181,7 @@ footer {
   
   .title-area h1 {
     font-size: 400%;
-    color: red;
+    /* color: red; */
   }
 
   .hero ul li {
@@ -233,7 +213,7 @@ footer {
 
   .title-area h1 {
     font-size: 500%;
-    color: purple;
+    /* color: purple; */
   }
 
 
@@ -247,32 +227,10 @@ footer {
   text-align: left;
 }
 
-/* 
-  .hero p {
-    font-size: 200%;
-  }
-  
-  .hero ul li a {
-    font-size: 100%;
-    text-decoration: none;
-  }
-  
-  .hero h2 {
-    font-size: 300%;
-  } */
-  
   .hero img {
     max-width: 50%;
     margin-top: 20px;
     border-radius: 5%;
   }
 
-/* 
-  nav ul {
-      justify-content: flex-start;
-  }
-
-  .hero {
-      padding: 50px;
-  } */
 }
