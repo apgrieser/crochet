@@ -71,13 +71,24 @@ nav ul li a:hover {
   /* color: #fff; */
 }
 
-.hero p, .hero ul {
-  font-size: 200%;
+/* .hero p {
+  font-size: 300%;
   text-align: left;
+} */
+
+.hero ul li {
+  text-align: left;
+  padding-bottom: 30px;
+  font-size: 300%;
 }
 
+/* .hero ul li a {
+  font-size: 200%;
+  text-align: left;
+} */
+
 .hero h2 {
-  font-size: 600%;
+  font-size: 500%;
   text-align: left;
 }
 
@@ -154,26 +165,69 @@ footer {
 
 /* Responsiveness stuff */
 
+/* very small screens (iPhones protrait) */
+@media (max-width: 430px) {
+
+  .title-area h1 {
+    font-size: 340%;
+    color: green;
+  }
+
+  .hero ul li {
+    padding-bottom: 5px;
+    font-size: 100%;
+  }
+  
+  .hero h2 {
+    font-size: 150%;
+    text-align: left;
+  }
+  
+  .hero img {
+    max-width: 50%;
+    margin-top: 20px;
+    border-radius: 5%;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+    padding-bottom: 5px;
+  }
+  
+}
+
 /* small screens */
 @media (max-width: 900px) {
   
   .title-area h1 {
-    font-size: 340%;
-    /* color: red; */
+    font-size: 400%;
+    color: red;
   }
-
+/* 
   .hero p {
     font-size: 100%;
   }
 
   .hero ul li a {
-    font-size: 300%;
+    font-size: 200%;
   }
   
   .hero h2 {
     font-size: 200%;
+  } */
+  
+
+  .hero ul li {
+    padding-bottom: 10px;
+    font-size: 100%;
   }
   
+  .hero h2 {
+    font-size: 200%;
+    text-align: left;
+  }
+  
+
   .hero img {
     max-width: 50%;
     margin-top: 20px;
@@ -183,24 +237,37 @@ footer {
   
 
 /* medium screens */
-@media (min-width: 901px) and (max-width: 1500px) {
+@media (min-width: 431px) and (max-width: 1500px) {
 
   .title-area h1 {
     font-size: 500%;
     color: purple;
   }
 
+
+.hero ul li {
+  padding-bottom: 15px;
+  font-size: 150%;
+}
+
+.hero h2 {
+  font-size: 250%;
+  text-align: left;
+}
+
+/* 
   .hero p {
     font-size: 200%;
   }
   
   .hero ul li a {
-    font-size: 400%;
+    font-size: 100%;
+    text-decoration: none;
   }
   
   .hero h2 {
     font-size: 300%;
-  }
+  } */
   
   .hero img {
     max-width: 50%;
