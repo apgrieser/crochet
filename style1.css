@@ -170,7 +170,7 @@ footer {
 
   .title-area h1 {
     font-size: 340%;
-    color: green;
+    color: fuchsia;
   }
 
   .hero ul li {
@@ -190,8 +190,8 @@ footer {
   }
 
   nav ul li {
-    margin: 5 3px;
-    padding-bottom: 5px;
+    margin: 0 3px;
+    padding-bottom: 3px;
   }
   
 }
