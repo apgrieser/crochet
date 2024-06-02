@@ -147,6 +147,10 @@ footer {
   /* position: sticky; */
 }
 
+/* Space the social icons appropriately */
+footer nav ul li {
+  margin-right: 20px;
+};
 
 /* ---------------------------------------- */
 
@@ -185,7 +189,6 @@ footer {
   .logo1 img {
     width: 20%;
   }
-  
   
 }
 
