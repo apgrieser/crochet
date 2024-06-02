@@ -190,6 +190,9 @@ footer nav ul li {
     width: 20%;
   }
   
+  footer nav ul li {
+    margin-right: 20px;
+  };
 }
 
 /* small screens */
@@ -225,6 +228,9 @@ footer nav ul li {
     width: 20%;
   }
   
+  footer nav ul li {
+    margin-right: 20px;
+  };
 }
   
 
@@ -257,5 +263,7 @@ footer nav ul li {
     width: 20%;
   }
   
-
+  footer nav ul li {
+    margin-right: 20px;
+  };
 }
