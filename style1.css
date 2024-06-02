@@ -131,6 +131,7 @@ nav ul li a:hover {
   padding-top: 10px;
   height: auto;
   justify-content: center;
+  border-radius: 100%;
 }
 
 
@@ -180,11 +181,11 @@ footer {
     padding-bottom: 3px;
     font-size: smaller;
   }
-/* 
+
   .logo1 img {
     width: 20%;
   }
-   */
+  
   
 }
 
@@ -216,11 +217,11 @@ footer {
     margin: 0 5px;
     padding-bottom: 5px;
   }
-/* 
+
   .logo1 img {
-    width: 25%;
+    width: 20%;
   }
-   */
+  
 }
   
 
@@ -248,5 +249,10 @@ footer {
     margin-top: 20px;
     border-radius: 5%;
   }
+
+  .logo1 img {
+    width: 20%;
+  }
+  
 
 }
