@@ -15,7 +15,7 @@ header {
   background-color: #3c3c07;
 
   padding: 10px 0;
-}
+}https://apgrieser.github.io/crochet/index1
 
 h1 {
   color: #fafad2;
@@ -62,7 +62,7 @@ nav ul li a:hover {
   padding: 20px;
   color: #3c3c07;
   background-color: #fff6de;
-  justify-content: space-between;
+  justify-content: space-around;
   /* color: #fafad2; */
   /* background-color: #ffefd2; */
   /* background-color: #4a4a37; */
@@ -190,36 +190,23 @@ footer {
   }
 
   nav ul li {
-    margin: 0 10px;
+    margin: 5 10px;
     padding-bottom: 5px;
   }
   
 }
 
 /* small screens */
-@media (max-width: 900px) {
+@media (min-width: 431px) and (max-width: 900px) {
   
   .title-area h1 {
     font-size: 400%;
     color: red;
   }
-/* 
-  .hero p {
-    font-size: 100%;
-  }
-
-  .hero ul li a {
-    font-size: 200%;
-  }
-  
-  .hero h2 {
-    font-size: 200%;
-  } */
-  
 
   .hero ul li {
     padding-bottom: 10px;
-    font-size: 100%;
+    font-size: 150%;
   }
   
   .hero h2 {
@@ -227,17 +214,22 @@ footer {
     text-align: left;
   }
   
-
   .hero img {
     max-width: 50%;
     margin-top: 20px;
     border-radius: 5%;
   }
+
+  nav ul li {
+    margin: 0 10px;
+    padding-bottom: 5px;
+  }
+  
 }
   
 
 /* medium screens */
-@media (min-width: 431px) and (max-width: 1500px) {
+@media (min-width: 901px) and (max-width: 1500px) {
 
   .title-area h1 {
     font-size: 500%;
