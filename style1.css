@@ -1,44 +1,96 @@
+
 /* General Styles */
 
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   /* color: #fafad2; */
-  color: #ffefd2;
+  /* color: #3c3c07; */
+  /* background-color: #fffcf6; */
+  background-color: transparent;
   margin: 0;
   padding: 0;
-}
-
-header {
-  background-color: #3c3c07;
-  padding: 10px 0;
+  text-align: left;
+  font-size: 100%;
 }
 
 h1 {
-  color: #fafad2;
-  background-color: #a5a58d;
-  /* background-color: #b0c4b1; */
-  /* background-color: #4a4a4a; */
+  /* font-family: 'Licorice', cursive; */
+  font-family: 'Marck Script', cursive;
+  font-weight:100;
+  font-size: 600%;
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
-  color: #3c3c07;
-  /* color: #fafad2; */
-  /* font-weight: 600; */
-  font-size: 200%;
+  font-family: 'Marck script', cursive;
+  letter-spacing: 2px;
+  font-size: 300%;
+  font-weight:100;
+  letter-spacing: 1px;
+  /* font-weight:bold; */
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 150%;
+  font-style: italic;
+}
+
+/* 
+body nav ul {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+} */
+/* 
+body nav ul li {
+  /* margin: 0; */
+  /* list-style-type: none; */
+  /* padding: 10px; */
+  /* padding-left: 10px; */
+/* }  */
+
+header {
+  background-color: #3c3c07;
+  /* padding: 10px 0; */
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0;
+}
+/* 
+header ul {
+  list-style-type:  none;
+} */
+
+header ul li {
+  padding: 0;
+}
+
+
+nav {
+  margin: 0;
+  padding: 0px;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
+  background-color: #232305;
 }
 
 nav ul li {
-  margin: 0 15px;
-  padding-bottom: 10px;
+  /* margin: 0 15px; */
+  padding-right: 10px;
 }
 
 nav ul li a {
@@ -51,25 +103,42 @@ nav ul li a:hover {
   color: goldenrod;
 }
 
+
+.title-area {
+  color: #fff6de;
+}
+
 .hero {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
+  flex-flow: row nowrap;
   align-items: center;
   text-align: center;
   padding: 10px;
+  padding-top: 0;
   color: #3c3c07;
   background-color: #fff6de;
   justify-content: space-around;
+  margin: 0;
+}
+
+.hero ul {
+  /* list-style-type: disc; */
+  margin-left: 40px;
+  padding: 0;
 }
 
 .hero ul li {
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   font-size: 300%;
+  text-align: left;
 }
 
 .hero h2 {
-  font-size: 500%;
+  font-size: 300%;
+  padding-left: 10 px;
+  margin-left: 0px;
   text-align: left;
 }
 
@@ -78,22 +147,6 @@ nav ul li a:hover {
   height: auto;
   margin-top: 20px;
   border-radius: 5%;
-}
-
-.title-area {
-  font-family: 'Licorice', cursive;
-  text-align: center;
-  margin-top: 0;
-  background-color: #fff6de;
-  padding-top: 10px;
-}
-
-.title-area h1 {
-  font-size: 800%;
-  margin: 0;
-  padding: 0;
-  color: #3c3c07;
-  background-color: #fff6de;
 }
 
 .get-started {
@@ -119,10 +172,74 @@ nav ul li a:hover {
 }
 
 .page-content {
-  display: flex;
-  color: black;
+  /* display: flex; */
+  /* margin-top: 0; */
+  margin: 0;
+  padding: 0;
+  /* padding-top: 10px; */
+  /* padding-top: 0; */
+  /* background-color: #fffcf6; */
+  /* background-color: red; */
+  color: #3c3c07;;
+  /* color: black; */
+  font-size: 150%;
+  text-align: center;
+  /* padding-bottom: 0; */
 }
 
+
+.page-content p {
+  margin: 0;
+  padding: 10px;
+}
+
+.page-content ul {
+  list-style-type: circle;
+  margin: 0;
+  padding-top: 0px;
+  margin-left: 10px;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* padding: 0; */
+  text-align: left;
+}
+
+.page-content ul li {
+  /* color: green; */
+  /* margin: 10px; */
+  padding: 0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* text-align: left; */
+}
+
+.important-page-content {
+  /* padding-top: 10px; */
+  background-color: #f7e1d7;
+  font-size: 100%;
+  font-weight: bold;
+  /* padding-bottom: 10px; */
+}
+
+
+.color1-page-content {
+  /* padding-top: 10px; */
+  background-color: #fffcf6;
+  /* padding-bottom: 10px; */
+}
+
+
+.color2-page-content {
+  /* padding-top: 10px; */
+  background-color: #f4e1bf;
+  /* padding-bottom: 10px; */
+}
+
+.etsy-link {
+  padding-top: 10px;
+  padding-left: 20px;
+}
 
 .logo1 img {
   width: 20%;
@@ -135,19 +252,21 @@ nav ul li a:hover {
 
 footer {
   margin-bottom: 0;
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 10px;
   color: #fff6de;
   background-color: #3c3c07;
   text-align: center;
 }
 
-/* Space the social icons appropriately */
-/* .footer-spacing nav ul li {
-  margin-right: 15px;
-} */
+footer nav ul {
+  padding-top: 10px;
+  background-color: #3c3c07;
+}
 
 footer nav ul li {
+  font-size: smaller;
+  margin: 0;
   margin-right: 20px;
 }
 
@@ -158,9 +277,9 @@ footer nav ul li {
 /* very small screens (iPhones protrait) */
 @media (max-width: 430px) {
 
-  .title-area h1 {
+h1 {
     font-size: 300%;
-    /* color: fuchsia; */
+    color: fuchsia;
   }
 
   .hero ul li {
@@ -179,26 +298,22 @@ footer nav ul li {
     border-radius: 5%;
   }
 
-  nav ul li {
-    margin: 0 3px;
-    padding-bottom: 3px;
-    font-size: smaller;
-  }
+  /* nav ul li { */
+    /* margin: 0 3px; */
+    /* padding-bottom: 3px; */
+    /* font-size: smaller; */
+  /* } */
 
   .logo1 img {
     width: 20%;
   }
-/* 
-  .footer-spacing nav ul li {
-    margin-right: 30px;
-  } */
 
 }
 
 /* small screens */
 @media (min-width: 431px) and (max-width: 900px) {
   
-  .title-area h1 {
+ h1 {
     font-size: 400%;
     /* color: red; */
   }
@@ -210,7 +325,7 @@ footer nav ul li {
   
   .hero h2 {
     font-size: 150%;
-    text-align: left;
+    padding-left: 10px;
   }
   
   .hero img {
@@ -219,10 +334,11 @@ footer nav ul li {
     border-radius: 5%;
   }
 
-  nav ul li {
-    margin: 0 5px;
-    padding-bottom: 5px;
-  }
+  /* nav ul li { */
+  /*  margin: 0 8px;
+    padding-bottom: 5px; */
+    /* font-size: smaller; */
+  /* } */
 
   .logo1 img {
     width: 20%;
@@ -234,7 +350,7 @@ footer nav ul li {
 /* medium screens */
 @media (min-width: 901px) and (max-width: 1500px) {
 
-  .title-area h1 {
+  h1 {
     font-size: 500%;
     /* color: purple; */
   }
@@ -242,12 +358,12 @@ footer nav ul li {
 
 .hero ul li {
   padding-bottom: 15px;
-  font-size: 150%;
+  font-size: 185%;
 }
 
 .hero h2 {
   font-size: 250%;
-  text-align: left;
+  padding-left: 10px;
 }
 
   .hero img {
