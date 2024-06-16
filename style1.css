@@ -43,7 +43,6 @@ h4 {
 }
 
 
-
 /* 
 body nav ul {
   padding: 0;
@@ -113,48 +112,54 @@ nav ul li a:hover {
 }
 
 .hero {
-  display: flex;
+  /* display: flex; */
   /* flex-direction: row; */
-  flex-flow: row nowrap;
-  align-items: center;
-  text-align: center;
+  /* flex-flow: row nowrap; */
+  font-size: 120%;
+  align-items: left;
+  text-align: left;
   padding: 10px;
-  padding-top: 0;
+  padding-top: 10px;
   color: #3c3c07;
   /* background-color: #fff6de; */
   background-color: #b3cb9f;
-  justify-content: space-around;
-  margin: 0;
+  /* justify-content: space-evenly; */
+  /* margin: 0; */
 }
 
-.hero ul {
+/* .hero ul { */
   /* list-style-type: disc; */
-  margin-left: 40px;
-  padding: 0;
-}
-
+  /* margin-left: 40px; */
+  /* padding: 0; */
+  /* padding-left doesn't seem to do anything */
+  /* padding-left: 50px; */
+/* } */
+/* 
 .hero ul li {
   text-align: left;
-  padding-bottom: 15px;
   font-size: 300%;
   text-align: left;
   letter-spacing: 1px;
-}
+} */
 
 .hero h2 {
   font-size: 300%;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   margin-left: 0px;
+  padding-left: 40px;
   text-align: left;
-  
 }
 
 .hero img {
-  max-width: 80%;
+  min-width: 100%;
   height: auto;
-  margin-top: 20px;
-  border-radius: 5%;
-}
+} 
+/* .hero img { */
+  /* max-width: 80%; */
+  /* height: auto; */
+  /* margin-top: 20px; */
+  /* border-radius: 4%; */
+/* } */
 
 .get-started {
   /* background-color: #fff6de; */
@@ -200,36 +205,43 @@ nav ul li a:hover {
 
 
 .page-content p h3 {
-  margin: 0;
+  margin: 0px;
   /* padding: 10px; */
   padding: 0;
+  text-align: left;
 }
-
+/* 
 .page-content img {
   max-width: 40%;
   height: auto;
   margin-top: 20px;
   border-radius: 5%;
-}
+} */
 
 .page-content ul {
   list-style-type: circle;
-  margin: 0;
+  margin: 0px;
   padding-top: 0px;
-  margin-left: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  /* margin-left: 10px; */
   /* margin: 0; */
   /* padding: 0; */
   /* padding: 0; */
   text-align: left;
 }
+/* 
+.page-content h3 {
+  padding-bottom: 10px;
+} */
 
 .page-content ul li {
   /* color: green; */
   /* margin: 10px; */
   padding: 0;
-  margin: 0;
+  /* margin-left: 10px; */
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   /* text-align: left; */
 }
 
@@ -245,6 +257,12 @@ nav ul li a:hover {
   background-color: #fffcf6;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.color1-page-content ul li {
+  padding-bottom: 0px;
+  
 }
 
 .color2-page-content {
@@ -252,7 +270,12 @@ nav ul li a:hover {
   background-color: #f2efe3;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
+
+/* Two column flex box */
+/* The first column takes up 65% (or whatever is indicated below) */
+/* and the second column takes up the remaining space */
 
 .two-column {
   display: flex;
@@ -260,31 +283,59 @@ nav ul li a:hover {
   margin: 10px;
   font-size: 100%;
   align-items: flext-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-/* .pros-cons {
+
+.two-column > .column1 {
+  flex: 0 0 65%;
+}
+
+.two-column > .column2 {
+  flex: 0 0 35%;
   display: flex;
-  flex-flow: row wrap;
-  margin: 10px;
-  font-size: 100%;
-  align-items: flex-start;
-  justify-content: space-around;
-} */
+  padding-right: 10px;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center;    /* Centers the image vertically */
+}
+
+.two-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4%;
+}
+
+.li-format-hero {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size:200%;
+}
+
+.li-format {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 150%;
+}
 
 .two-column h2 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.two-column h3 {
   text-align: left;
 }
 
 .two-column ul {
   /*       t r b  l  */
-  padding: 0 0 0 10px;
+  padding: 0 0 0 40px;
   margin: 0;
   text-align: left;
 }
 
 .two-column ul li {
   list-style-type: square;
-  padding: 0;
+  padding-left: 0;
+  padding-bottom: 10px;
   margin: 0;
 }
 
@@ -334,8 +385,12 @@ footer nav ul li {
   margin-right: 20px;
 }
 
+footer nav ul li a {
+  color: #3c3c07
+}
+
 footer nav ul li a:hover {
-  color: black;
+  color: #f2efe3;
 }
 
 
@@ -368,25 +423,31 @@ footer nav ul li a:hover {
     font-size: 150%;
     text-align: left;
   }
-  
+
+/*   
   .hero img {
     max-width: 50%;
     margin-top: 20px;
     border-radius: 5%;
-  }
+  } */
 
   /* nav ul li { */
     /* margin: 0 3px; */
     /* padding-bottom: 3px; */
     /* font-size: smaller; */
   /* } */
-
+/* 
   .logo1 img {
     width: 10%;
-  }
+  } */
 
   .two-column {
-    font-size: 60%;
+    font-size: 65%;
+  } 
+
+
+  .li-format-hero {
+    font-size: 300%;
   }
 
 }
@@ -403,12 +464,12 @@ footer nav ul li a:hover {
     padding-bottom: 10px;
     font-size: 150%;
   }
-  
+/*   
   .hero h2 {
     font-size: 150%;
     padding-left: 10px;
   }
-  
+   */
   .hero img {
     max-width: 50%;
     margin-top: 20px;
@@ -420,13 +481,17 @@ footer nav ul li a:hover {
     padding-bottom: 5px; */
     /* font-size: smaller; */
   /* } */
-
+/* 
   .logo1 img {
     width: 10%;
+  } */
+
+  .li-format-hero {
+    font-size: 200%;
   }
 
   .two-column {
-    font-size: 50%;
+    font-size: 60%;
   } 
 
   
@@ -458,12 +523,18 @@ footer nav ul li a:hover {
     margin-top: 20px;
     border-radius: 5%;
   }
-
+/* 
   .logo1 img {
     width: 10%;
+  } */
+
+
+  .li-format-hero {
+    font-size: 200%;
   }
 
   .two-column {
-    font-size: 70%;
-  } 
+    font-size: 75%;
+  }  
+
 }
