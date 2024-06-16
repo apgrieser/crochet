@@ -43,20 +43,6 @@ h4 {
 }
 
 
-/* 
-body nav ul {
-  padding: 0;
-  margin: 0;
-  background-color: black;
-} */
-/* 
-body nav ul li {
-  /* margin: 0; */
-  /* list-style-type: none; */
-  /* padding: 10px; */
-  /* padding-left: 10px; */
-/* }  */
-
 header {
   /* background-color: #3c3c07; */
   /* padding: 10px 0; */
@@ -65,10 +51,7 @@ header {
   margin: 0;
   padding-bottom: 0;
 }
-/* 
-header ul {
-  list-style-type:  none;
-} */
+
 
 header ul li {
   padding: 0;
@@ -92,12 +75,10 @@ nav ul {
 }
 
 nav ul li {
-  /* margin: 0 15px; */
   padding-right: 10px;
 }
 
 nav ul li a {
-  /* color: #fafad2; */
   color: #fff6de;
   text-decoration: none;
 }
@@ -106,7 +87,7 @@ nav ul li a:hover {
   color: goldenrod;
 }
 
-
+/* Currently not used */
 .title-area {
   color: #fff6de;
 }
@@ -188,35 +169,19 @@ nav ul li a:hover {
 }
 
 .page-content {
-  /* display: flex; */
-  /* margin-top: 0; */
   margin: 0;
   padding: 0;
-  /* padding-top: 10px; */
-  /* padding-top: 0; */
-  /* background-color: #fffcf6; */
-  /* background-color: red; */
   color: #3c3c07;;
-  /* color: black; */
   font-size: 150%;
   text-align: center;
-  /* padding-bottom: 0; */
 }
 
 
 .page-content p h3 {
   margin: 0px;
-  /* padding: 10px; */
   padding: 0;
   text-align: left;
 }
-/* 
-.page-content img {
-  max-width: 40%;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 5%;
-} */
 
 .page-content ul {
   list-style-type: circle;
@@ -224,22 +189,13 @@ nav ul li a:hover {
   padding-top: 0px;
   padding-left: 30px;
   padding-bottom: 10px;
-  /* margin-left: 10px; */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* padding: 0; */
   text-align: left;
 }
-/* 
-.page-content h3 {
-  padding-bottom: 10px;
-} */
 
 .page-content ul li {
   /* color: green; */
   /* margin: 10px; */
   padding: 0;
-  /* margin-left: 10px; */
   padding-top: 10px;
   padding-bottom: 0px;
   /* text-align: left; */
@@ -318,7 +274,8 @@ nav ul li a:hover {
 
 .two-column h2 {
   text-align: left;
-  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-bottom: 0px;
 }
 
 .two-column h3 {
@@ -334,6 +291,7 @@ nav ul li a:hover {
 
 .two-column ul li {
   list-style-type: square;
+  padding-top: 0;
   padding-left: 0;
   padding-bottom: 10px;
   margin: 0;
