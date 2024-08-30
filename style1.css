@@ -330,19 +330,23 @@ nav ul li a:hover {
 .policy-ul {
   display: inline-block;  
   text-align: left;
+  /* padding-left: 10px; */
   padding-bottom: 100px;
 }
 
 .policy-ul li {
   /* padding: 0; */
+
+  /* list-style-type: "\27BE"; */
+  list-style-type:square;
   padding-bottom: 50px;
+  /* padding-left: 50em; */
 } 
 
 footer {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
-  /* color: #fff6de; */
   background-color: #b3cb9f;
   color: #3c3c07;
   text-align: center;
@@ -352,12 +356,9 @@ footer nav ul {
   padding-top: 10px;
   background-color: #b3cb9f;
   justify-content: center;
-  /* background-color: #3c3c07; */
 }
 
 footer nav ul li {
-  /* TO DO figure out how to set color of icons ? */
-  color: red;
   font-size: smaller;
   margin: 0;
   margin-right: 20px;
