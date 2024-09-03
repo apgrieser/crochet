@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Calm Crochet by Andrea</title> -->
+    <title>Calm Crochet by Andrea</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/CalmCrochetFavicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/CalmCrochetFavicon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/CalmCrochetFavicon.png">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Barlow&family=Licorice&family=Satisfy&family=Marck+Script&display=swap" rel="stylesheet">
+    <!-- Fontawesome icon links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- <span class="menu-toggle">☰</span> -->
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <!-- <li><a href="#instructions">Instructions</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#policies">Policies</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="color1-page-content">
+
+        <h1>My Story</h1>
+
+        <div class="about-container overlapping-layout">
+            <img src="./images/about.jpg" alt="Andrea and her mother stitching together"></img></a>
+            <div class="about-text">
+                <!-- This is where the content from essay.html will be inserted -->
+            <div id="essay-content"></div>
+                <!-- <h2>My Crochet Journey</h2>
+                <h3>Your essay text goes here...</h3>
+                <h3>Does each line get a new set of tags?</h3> -->
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav> 
+            
+            <ul>
+                <li><a href="https://calmcrochetbyandrea.etsy.com/" target="_blank"><i class="fa-brands fa-etsy"></i></a></li>
+                <!-- <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li> -->
+                <li><a href="https://www.instagram.com/calmcrochetbyandrea/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.pinterest.com/calmcrochetbyandrea/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a></li>
+            </ul>
+        </nav>
+
+
+        <div id="contact" class="footer">
+            <!-- <h2>Contact Calm Crochet By Andrea</h2> -->
+            <h3>Contact me through my <a href="https://calmcrochetbyandrea.etsy.com" target="_blank">Etsy shop</a>!</h3>
+        </div>
+        <div class="logo1">
+            <!-- When I change the case of the image filename to match the case in the dir, git doesn't think anything has changed, hence the comment -->
+            <a href="./index.html"><img src="./images/CalmCrochetLogo.png" alt="Logo"></img></a>
+        </div>
+        <p>&copy; 2024 Andrea Grieser. All rights reserved.</p>
+    </footer>
+
+   <!-- <script src="./about.js"></script> -->
+   <script>
+    // Fetch the content of essay.html and insert it into the #essay-content div
+    fetch('about-essay.html')
+        .then(response => {
+            // Check if the fetch was successful
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            // Convert the response to text
+            return response.text();
+        })
+        .then(data => {
+            // Insert the fetched content into the #essay-content div
+            document.getElementById('essay-content').innerHTML = data;
+        })
+        .catch(error => {
+            // Handle any errors that occurred during the fetch
+            console.error('There was a problem with the fetch operation:', error);
+        });
+</script>
+
+</body>
+</html>

@@ -347,6 +347,41 @@ nav ul li a:hover {
   /* padding-left: 50em; */
 } 
 
+/* "About" page css */
+
+.about img {
+  max-width: 25%;
+  height: auto;
+  border-radius: 5%;
+} 
+
+.about-container {
+  position: relative;
+  margin: 20px;
+}
+
+.about-photo img ß{
+  width: 75%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.overlapping-layout .about-text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ACC9E0;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/*  ------------------------------------- ß */
+
+ /* common */
+
 footer {
   margin-bottom: 0;
   padding-top: 0;
@@ -467,6 +502,10 @@ footer nav ul li a:hover {
     border-radius: 5%;
   }
 
+  .about img {
+    max-width: 10%;
+  }
+
   /* nav ul li { */
   /*  margin: 0 8px;
     padding-bottom: 5px; */
@@ -509,11 +548,11 @@ footer nav ul li a:hover {
   padding-left: 10px;
 }
 
-  .hero img {
-    max-width: 50%;
-    margin-top: 20px;
-    border-radius: 5%;
-  }
+.hero img {
+  max-width: 50%;
+  margin-top: 20px;
+  border-radius: 5%;
+}
 /* 
   .logo1 img {
     width: 10%;
