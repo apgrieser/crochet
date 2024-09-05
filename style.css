@@ -35,6 +35,7 @@ h2 {
 
 h3 {
   font-size: 150%;
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -349,34 +350,139 @@ nav ul li a:hover {
 
 /* "About" page css */
 
+.about-text {
+  font-size: 150%;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.about-text-TLDR {
+  font-size: 180%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-style:italic;
+  font-weight:bold;
+  text-align: left;
+}
+
+.about-signature {
+  font-size: 150%;
+  font-style: italic;
+  font-family: 'Sofia', cursive;
+  text-align: left;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+} */
+
+.about-section {
+  position: relative;
+  padding: 50px 5%;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photo-container {
+  padding-top: 10px;
+  margin-bottom: -5%; /* To create the overlap effect */
+}
+
+.photo-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+}
+
+.essay-box {
+  padding-top: 10px;
+  position: relative;
+  width: 85%;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px darkgray;
+  height: 200px; /* Fixed height */
+  overflow-y: auto; /* Scroll if content overflows */
+  z-index: 1; /* Ensures essay is above the photo */
+}
+/* 
+.essay-box h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #5a7d7c;
+} */
+
+.essay-box p {
+  line-height: 1.3;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 20px;
+  }
+
+  .essay-box {
+    height: 180px;
+    padding: 15px;
+  }
+
+  .photo-container {
+    margin-bottom: -50px;
+  }
+}
+
+/* 
 .about img {
+  display: block;
   max-width: 25%;
   height: auto;
+  margin: auto;
   border-radius: 5%;
 } 
 
 .about-container {
   position: relative;
   margin: 20px;
+  overflow: auto;
+  height: 500px;
+  width: 1000px;
+  border: 1;
 }
 
-.about-photo img ß{
+.about-photo img {
   width: 75%;
   max-width: 600px;
   height: auto;
   border-radius: 8px;
+  margin:auto;
+  text-align: center;
 }
 
 .overlapping-layout .about-text {
   position: absolute;
   top: 75%;
-  left: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
   background-color: #ACC9E0;
   padding: 20px;
   border-radius: 8px;
   font-family: Arial, sans-serif;
-}
+} */
 
 /*  ------------------------------------- ß */
 
@@ -422,6 +528,15 @@ footer nav ul li a:hover {
 
 /* very small screens (iPhones protrait) */
 @media (max-width: 430px) {
+
+  .photo-container img {
+    width: 80%; /* Image becomes larger for very small screens */
+  }
+
+  .essay-box {
+    width: 95%; /* Essay box nearly fills the width of the screen */
+    min-height: 50vh; /* Essay box is larger on small screens */
+  }
 
   h1 {
     font-size: 280%;
@@ -480,6 +595,15 @@ footer nav ul li a:hover {
 
 /* small screens */
 @media (min-width: 431px) and (max-width: 900px) {
+ 
+  .photo-container img {
+    width: 80%; /* Image becomes larger for very small screens */
+  }
+
+  .essay-box {
+    width: 95%; /* Essay box nearly fills the width of the screen */
+    min-height: 50vh; /* Essay box is larger on small screens */
+  }
   
  h1 {
     font-size: 400%;
@@ -530,7 +654,17 @@ footer nav ul li a:hover {
   
 
 /* medium screens */
-@media (min-width: 901px) and (max-width: 1500px) {
+@media (min-width: 901px)  {
+
+
+  .photo-container img {
+    width: 80%; /* Image becomes larger for very small screens */
+  }
+
+  .essay-box {
+    width: 95%; /* Essay box nearly fills the width of the screen */
+    min-height: 50vh; /* Essay box is larger on small screens */
+  }
 
   h1 {
     font-size: 500%;
