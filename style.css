@@ -24,12 +24,12 @@ h1 {
   font-size: 600%;
   text-align: center;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h2 {
   /* font-family: 'Marck script', cursive; */
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-size: 250%;
   font-weight:100;
   letter-spacing: 1px;
@@ -40,7 +40,9 @@ h2 {
 h3 {
   font-size: 150%;
   padding-bottom: 10px;
+  letter-spacing: 1px;
   font-weight: lighter;
+  margin-left: 22px;
 }
 
 h4 {
@@ -138,10 +140,21 @@ nav ul li a:hover {
   text-align: left;
 } */
 
+.hero-photo-container {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  margin: 20px 0;
+}
+
 .hero img {
   min-width: 100%;
   height: auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 10px gray;
 } 
+
+
 /* .hero img { */
   /* max-width: 80%; */
   /* height: auto; */
@@ -412,6 +425,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-self: center;
   /* grid-template-rows: auto auto minmax(150px, 1fr) auto; Fixed header, image, flexible essay box, fixed footer */
   /* grid-gap: 20px; */
   height: 100%; /* Fill the screen height */
