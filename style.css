@@ -130,14 +130,13 @@ nav ul li a:hover {
   text-align: left;
   letter-spacing: 1px;
 } */
-
+/* 
 .hero h2 {
   font-size: 300%;
-  /* padding-left: 10px; */
   margin-left: 0px;
   padding-left: 40px;
   text-align: left;
-}
+} */
 
 .hero img {
   min-width: 100%;
@@ -520,12 +519,12 @@ footer nav ul li a:hover {
 
   h1 {
     /* Use color for debugging purposes only */
-    color: red;
+    /* color: red; */
     font-size: 280%;
   }
 
   h2 {
-    font-size: 190%;
+    font-size: 240%;
   }
 
   h3 {
@@ -555,10 +554,10 @@ footer nav ul li a:hover {
   .hero h1 {
     font-size: 250%;
   }
-  .hero h2 {
+  /* .hero h2 {
     font-size: 190%;
     text-align: left;
-  }
+  } */
 
   .li-format {
     font-size: 150%;
@@ -579,7 +578,7 @@ footer nav ul li a:hover {
   }
 
   .photo-container img {
-    max-width: 80%; /* Make image smaller on mobile */
+    max-width: 100%; /* Make image smaller on mobile */
   }
 }
 
