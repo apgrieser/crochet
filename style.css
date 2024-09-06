@@ -30,7 +30,7 @@ h1 {
 h2 {
   /* font-family: 'Marck script', cursive; */
   letter-spacing: 2px;
-  font-size: 290%;
+  font-size: 250%;
   font-weight:100;
   letter-spacing: 1px;
   padding-bottom: 5px;
@@ -151,17 +151,18 @@ nav ul li a:hover {
 
 .get-started {
   background-color: #ACC9E0;
-  /* background-color: #b3cb9f; */
+  /* background-color: #0056b3; */
   text-align: center;
   padding-top: 0;
   padding-bottom: 20px;
 }
 
 .get-started button {
-  background-color: #EBEFF1;
+  /* background-color: #EBEFF1; */
+  background-color: #007BFF;
   /* background-color: #b3cb9f; */
   /* color: #fff; */
-  color: #2F395F;
+  color: white;
   font-size: larger;
   /* font-weight: bold; */
   border-color: black;
@@ -170,9 +171,9 @@ nav ul li a:hover {
 }
 
 .get-started button:hover {
-  /* background-color: #0056b3; */
+  background-color: #0056b3;
   /* background-color: transparent; */
-  background-color: #5262A4;
+  /* background-color: #5262A4; */
   color: #EBEFF1;
 }
 
@@ -544,16 +545,16 @@ footer nav ul li a:hover {
   body {
     font-size: 85%;
   }
-
+/* 
   .hero ul li {
     padding-bottom: 5px;
     font-size: 100%;
-  }
+  } */
   
-
+/* 
   .hero h1 {
     font-size: 250%;
-  }
+  } */
   /* .hero h2 {
     font-size: 190%;
     text-align: left;
