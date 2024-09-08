@@ -111,49 +111,20 @@ nav ul li a:hover {
 }
 
 .hero {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-flow: row nowrap; */
   font-size: 120%;
   align-items: left;
   text-align: left;
   padding: 10px;
   padding-top: 10px;
   color: #2F395F;
-  /* background-color: #fff6de; */
   background-color: #ACC9E0;
-  /* background-color: #b3cb9f; */
-  /* justify-content: space-evenly; */
-  /* margin: 0; */
 }
-
-/* .hero ul { */
-  /* list-style-type: disc; */
-  /* margin-left: 40px; */
-  /* padding: 0; */
-  /* padding-left doesn't seem to do anything */
-  /* padding-left: 50px; */
-/* } */
-/* 
-.hero ul li {
-  text-align: left;
-  font-size: 300%;
-  text-align: left;
-  letter-spacing: 1px;
-} */
-/* 
-.hero h2 {
-  font-size: 300%;
-  margin-left: 0px;
-  padding-left: 40px;
-  text-align: left;
-} */
 
 .hero-photo-container {
   padding-top: 10px;
   padding-left: 10px;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 10px;
 }
 
 .hero img {
@@ -163,30 +134,17 @@ nav ul li a:hover {
   box-shadow: 0 4px 10px gray;
 } 
 
-
-/* .hero img { */
-  /* max-width: 80%; */
-  /* height: auto; */
-  /* margin-top: 20px; */
-  /* border-radius: 4%; */
-/* } */
-
 .get-started {
   background-color: #ACC9E0;
-  /* background-color: #0056b3; */
   text-align: center;
   padding-top: 0;
   padding-bottom: 20px;
 }
 
 .get-started button {
-  /* background-color: #EBEFF1; */
   background-color: #007BFF;
-  /* background-color: #b3cb9f; */
-  /* color: #fff; */
   color: white;
   font-size: larger;
-  /* font-weight: bold; */
   border-color: black;
   padding: 10px 20px;
   cursor: pointer;
@@ -194,8 +152,6 @@ nav ul li a:hover {
 
 .get-started button:hover {
   background-color: #0056b3;
-  /* background-color: transparent; */
-  /* background-color: #5262A4; */
   color: #EBEFF1;
 }
 
@@ -224,8 +180,6 @@ nav ul li a:hover {
 }
 
 .page-content ul li {
-  /* color: green; */
-  /* margin: 10px; */
   padding: 0;
   padding-top: 10px;
   padding-bottom: 0px;
@@ -235,7 +189,6 @@ nav ul li a:hover {
 .important-page-content {
   padding-top: 10px;
   background-color: #F5E4E6;
-  /* background-color: #f7e1d7; */
   font-size: 100%;
   font-weight: bold;
   padding-bottom: 10px;
@@ -243,7 +196,6 @@ nav ul li a:hover {
 
 .color1-page-content {
   background-color: #F7FEFF;
-  /* background-color: #fffcf6; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -533,8 +485,6 @@ footer {
   padding-top: 0;
   padding-bottom: 10px;
   background-color: #ACC9E0;
-  /* background-color: #b3cb9f; */
-  /* color: #3c3c07; */
   color: #2F395F;
   text-align: center;
 }
@@ -549,7 +499,6 @@ footer nav ul {
   padding-top: 10px;
   background-color: #ACC9E0;
   color: #2F395F;
-  /* background-color: #b3cb9f; */
   justify-content: center;
 }
 
