@@ -49,6 +49,15 @@ h4 {
   font-size: 120%;
   font-weight: normal;
   font-style: italic;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 120%;
+  font-weight: normal;
+  font-style: italic;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 header {
@@ -350,21 +359,55 @@ nav ul li a:hover {
   text-align: center;
 }
 
+
+.free-pattern img {
+  min-width: 20%;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 10px gray;
+} 
+
+
+.policies h4 {
+  color: red;
+  text-align: center;
+}
+
 .policy-ul {
-  display: inline-block;  
-  text-align: left;
-  /* padding-left: 10px; */
-  padding-bottom: 100px;
+  list-style-type: square; 
+  margin-left: 30px;
+  font-weight: normal;
 }
 
 .policy-ul li {
-  /* padding: 0; */
+  margin-bottom: 0px;
+}
 
-  /* list-style-type: "\27BE"; */
-  list-style-type:square;
-  padding-bottom: 50px;
-  /* padding-left: 50em; */
-} 
+.policy-ol {
+  list-style-type: decimal; /* Ordered list using numbers */
+  margin-left: 30px;        /* Customize left margin for ordered list */
+  text-align: left;
+  font-weight: bold;
+}
+
+.policy-ol li {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Specific style for list items in the ordered list */
+/* .policy-ol > li {
+  margin-bottom: 10px;  
+} */
+
+/* Specific style for list items in the unordered list */
+/* .policy-ul li { */
+  /* margin-top: 10px; */
+ /* margin-bottom: 5px; */   /* Make sure this only applies to unordered list items */
+/* } */
+
+
+
 
 /* "About" page css */
 
