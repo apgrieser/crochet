@@ -1,6 +1,5 @@
 /* General Styles */
 
-
 body {
   font-family: 'Quicksand', sans-serif;
   /* color: #fafad2; */
@@ -106,14 +105,15 @@ nav ul li a:hover {
 }
 
 /* Currently not used */
-.title-area {
+/* .title-area {
   color: #fff6de;
-}
+} */
 
 .hero {
   font-size: 120%;
-  align-items: left;
-  text-align: left;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   padding: 10px;
   padding-top: 10px;
   color: #2F395F;
@@ -121,17 +121,20 @@ nav ul li a:hover {
 }
 
 .hero-photo-container {
-  padding-top: 10px;
-  padding-left: 10px;
-  width: 100%;
-  margin: 10px 10px;
+  display: inline-block;
+  text-align: center;
+  /* padding-top: 10px; */
+  /* padding-left: 10px; */
+  /* width: 100%; */
+  /* margin: 5px 5px; */
+  /* text-align: center; */
 }
 
 .hero img {
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  border-radius: 5%;
-  box-shadow: 0 4px 10px gray;
+  /* border-radius: 5%; */
+  /* box-shadow: 0 4px 10px gray; */
 } 
 
 .get-started {
@@ -161,8 +164,14 @@ nav ul li a:hover {
   color: #2F395F;;
   font-size: 150%;
   text-align: center;
+  width: 100%;
 }
 
+.page-content img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8%;
+} 
 
 .page-content p h3 {
   margin: 0px;
@@ -171,19 +180,18 @@ nav ul li a:hover {
 }
 
 .page-content ul {
-  list-style-type: circle;
-  margin: 0px;
+  list-style-type: disc;
+  margin: 50px;
   padding-top: 0px;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .page-content ul li {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 0px;
-  /* text-align: left; */
 }
 
 .important-page-content {
@@ -192,6 +200,7 @@ nav ul li a:hover {
   font-size: 100%;
   font-weight: bold;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .color1-page-content {
