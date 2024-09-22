@@ -119,23 +119,38 @@ nav ul li a:hover {
   color: #2F395F;
   background-color: #ACC9E0;
 }
-
+/* 
 .hero-photo-container {
-  display: inline-block;
-  text-align: center;
-  /* padding-top: 10px; */
-  /* padding-left: 10px; */
-  /* width: 100%; */
-  /* margin: 5px 5px; */
-  /* text-align: center; */
+  display: flex;
+  text-align: left;
+} */
+
+.text-photo-container {
+  display: flex;
+  text-align: left;
 }
 
-.hero img {
+
+.text-column {
+  flex-basis: 60%;
+  /* text-align: left; */
+}
+
+.img-column {
+  flex-basis: 40%;
+}
+
+.text-photo-container img {
   max-width: 100%;
   height: auto;
+}
+
+/* .hero img { */
+  /* max-width: 100%; */
+  /* height: auto; */
   /* border-radius: 5%; */
   /* box-shadow: 0 4px 10px gray; */
-} 
+/* }  */
 
 .get-started {
   background-color: #ACC9E0;
@@ -162,7 +177,7 @@ nav ul li a:hover {
   margin: 0;
   padding: 0;
   color: #2F395F;;
-  font-size: 150%;
+  font-size: 120%;
   text-align: center;
   width: 100%;
 }
@@ -544,8 +559,8 @@ footer nav ul li a:hover {
   }
 
   h3 {
-    font-size: 120%;
-    font-weight: bold;
+    font-size: 150%;
+    /* font-weight: bold; */
   }
 
   h4 {
@@ -581,6 +596,15 @@ footer nav ul li a:hover {
 
   .li-format-hero {
     font-size: 150%;
+  }
+
+  .text-photo-container {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .text-photo-container img {
+    max-width: 50%;
   }
 
   /* -- about page styles -- */
