@@ -117,7 +117,9 @@ nav ul li a:hover {
   padding: 10px;
   padding-top: 10px;
   color: #2F395F;
-  background-color: #ACC9E0;
+  background: linear-gradient(to right, #fffecc, #ebb2af, #87ccfa);
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4); */
+  /* background-color: #ACC9E0; */
 }
 /* 
 .hero-photo-container {
@@ -153,7 +155,9 @@ nav ul li a:hover {
 /* }  */
 
 .get-started {
-  background-color: #ACC9E0;
+  /* background-color: #ACC9E0; */
+  background: linear-gradient(to right, #fffecc, #ebb2af, #87ccfa);
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4); */
   text-align: center;
   padding-top: 0;
   padding-bottom: 20px;
@@ -211,7 +215,9 @@ nav ul li a:hover {
 
 .important-page-content {
   padding-top: 10px;
-  background-color: #F5E4E6;
+  /* background-color: #F5E4E6; */
+
+  background-color: #e8ffe8;
   font-size: 100%;
   font-weight: bold;
   padding-bottom: 10px;
@@ -508,7 +514,9 @@ footer {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 10px;
-  background-color: #ACC9E0;
+  background: linear-gradient(to right, #fffecc, #ebb2af, #87ccfa);
+  /* background-color: #ACC9E0; */
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4); */
   color: #2F395F;
   text-align: center;
 }
@@ -521,7 +529,8 @@ footer h3 {
 
 footer nav ul {
   padding-top: 10px;
-  background-color: #ACC9E0;
+  background: linear-gradient(to right, #fffecc, #ebb2af, #87ccfa);
+  /* background-color: #ACC9E0; */
   color: #2F395F;
   justify-content: center;
 }
