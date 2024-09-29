@@ -556,11 +556,11 @@ footer nav ul li a:hover {
   h1 {
     /* Use color for debugging purposes only */
     /* color: red; */
-    font-size: 280%;
+    font-size: 200%;
   }
 
   h2 {
-    font-size: 240%;
+    font-size: 180%;
   }
 
   h3 {
@@ -569,7 +569,7 @@ footer nav ul li a:hover {
   }
 
   h4 {
-    font-size: 120%;
+    font-size: 130%;
   }
 
   .two-column {
