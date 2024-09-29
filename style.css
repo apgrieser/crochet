@@ -551,7 +551,7 @@ footer nav ul li a:hover {
 /* Responsiveness stuff */
 
 /* Responsive design for smaller screens */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
   h1 {
     /* Use color for debugging purposes only */
@@ -560,7 +560,7 @@ footer nav ul li a:hover {
   }
 
   h2 {
-    font-size: 180%;
+    font-size: 170%;
   }
 
   h3 {
