@@ -20,7 +20,7 @@ h1 {
   /* font-family: 'Licorice', cursive; */
   font-family: 'Quicksand', sans-serif;
   font-weight:lighter;
-  font-size: 600%;
+  font-size: 450%;
   text-align: center;
   margin: 0;
   letter-spacing: 1px;
@@ -551,12 +551,12 @@ footer nav ul li a:hover {
 /* Responsiveness stuff */
 
 /* Responsive design for smaller screens */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
   h1 {
     /* Use color for debugging purposes only */
     /* color: red; */
-    font-size: 200%;
+    font-size: 210%;
   }
 
   h2 {
