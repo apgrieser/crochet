@@ -134,12 +134,14 @@ nav ul li a:hover {
 
 
 .text-column {
+  padding-left: 15px;
   flex-basis: 60%;
   align-content: center;
   /* text-align: left; */
 }
 
 .img-column {
+  padding-left: 15px;
   flex-basis: 40%;
   align-content: center;
 }
