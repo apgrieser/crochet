@@ -471,6 +471,11 @@ nav ul li a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 10px gray;
   margin: 0 auto; /* center the image */
+  /* Meager attempts to avoid download this photo - I realize a smart person will figure it out anyway if they want this photo so badly but it's better than nothing */
+  /* Shut off right (and left) clicks */
+  pointer-events: none;
+  /* Don't let users drag the photo */
+  -webkit-user-drag: none;
 }
 
 .essay-box {
